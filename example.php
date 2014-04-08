@@ -1,5 +1,11 @@
 <?php
 
+//
+// SecSign ID Api example in php.
+//
+// (c) copyright SecSign Technologies Inc.
+//
+
 	include 'SecSignIDApi.php';
     
     function logFromSecSignIDApi($message)
@@ -20,8 +26,7 @@
     //
     echo "create new instance of SecSignIDApi." . PHP_EOL;
 	$secSignIDApi = new SecSignIDApi();
-    $secSignIDApi->setPluginName("SecSignIDApi Github");
-    
+                                                  
     //
     // If extended logging is wished set a reference to a function (or the name of a function). 
     // All messages will be given as parameter to this function. 
@@ -36,7 +41,7 @@
     //
     $servicename = "Your Website Login";
     $serviceaddress = "http://www.yoursite.com/";
-    $secsignid = "bender";
+    $secsignid = "username";
     
     //
     // Get a auth session for the sepcified SecSign ID
