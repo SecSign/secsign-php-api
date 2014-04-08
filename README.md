@@ -1,26 +1,33 @@
 # SecSign ID PHP Interface
 
+
 **Overview**
-===============
 
 SecSign ID Api is a two-factor authentication for PHP web applications.
 
-This PHP API allowes a secure login using a private key on a smart phone running SecSign ID by SecSign Technologies Inc.
+This PHP API allows a secure login using a private key on a smart phone running SecSign ID by SecSign Technologies Inc.
 
-SecSign Technologies Inc. official site: <https://www.secsign.com>
 
 **Usage**
-===============
 
-Include the PHP API in `SecSignIDApi.php` in your project.
-Check out the included examples to see how it works.
-Have a look at the how to use tutorial.
+* Include the PHP API `SecSignIDApi.php` in your project.
+* Request an authentication session
+* Show access pass to user and save session parameters 
+* Get session state 
+* React to the state and have the user logged in
 
-Visit <https://www.secsign.com> for more informations.
+
+Check out the included example `test.php` to see how it works or 
+have a look at the how to use tutorial <https://secsign.com/en/php-integrate-tutorial.html>
+or visit <https://www.secsign.com> for more informations.
 
 **Files**
-===============
 
 * `SecSignIDApi.php` - the file contains two classes SecSignIDApi and AuthSession. The class SecSignIDApi will care about the communication with the ID server
-* `test.php` - a small test script
+* `example.php` - a small test script
 * `curl-ca-bundle.crt` - the allowed CA certificates
+
+
+===============
+
+SecSign Technologies Inc. official site: <https://www.secsign.com>
