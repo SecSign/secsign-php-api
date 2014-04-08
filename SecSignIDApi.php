@@ -1,6 +1,10 @@
 <?php
-
-    define("SCRIPT_REVISION", '$Revision: 1.22 $');
+//
+// SecSign ID Api in php.
+//
+// (c) copyright SecSign Technologies Inc.
+//
+    define("SCRIPT_REVISION", '$Revision: 1.23 $');
     
     class AuthSession
     {
@@ -196,9 +200,6 @@
     /**
      * PHP class to connect to a secsign id server. the class will check secsign id server certificate and request for authentication session generation for a given
      * user id which is called secsign id. Each authentication session generation needs a new instance of this class.
-     *
-     * @version $Id: SecSignIDApi.php,v 1.22 2014/03/04 15:16:55 titus Exp $
-     * @author SecCommerce Informationssysteme GmbH, Hamburg
      */
     class SecSignIDApi
     {
