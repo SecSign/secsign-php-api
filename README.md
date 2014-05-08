@@ -18,7 +18,7 @@ This PHP API allows a secure login using a private key on a smart phone running 
 
 
 Check out the included example `test.php` to see how it works or 
-have a look at the how to use tutorial <https://secsign.com/en/php-integrate-tutorial.html>
+have a look at the how to use tutorial <https://www.secsign.com/en/php-integrate-tutorial.html>
 or visit <https://www.secsign.com> for more informations.
 
 **Files**
