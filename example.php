@@ -1,9 +1,11 @@
 <?php
 
+// $Id: example.php,v 1.14 2014/05/28 15:10:23 titus Exp $
+
 //
 // SecSign ID Api example in php.
 //
-// (c) copyright SecSign Technologies Inc.
+// (c) 2014 SecSign Technologies Inc.
 //
 
 	include 'SecSignIDApi.php';
