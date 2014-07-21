@@ -33,6 +33,8 @@ The SecSign ID PHP Api is also used in the wordpress plugin <http://wordpress.or
 as well as for the php bridge in the SecSign ID Javascript Api <https://github.com/SecSign/secsign-js-api>.
 
 For further information about the wordpress plugin see the tutorial <https://www.secsign.com/wordpress-tutorial/>
+
+
 ===============
 
 SecSign Technologies Inc. official site: <https://www.secsign.com>
