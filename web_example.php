@@ -1,6 +1,6 @@
 <?php
 
-// $Id: web_example.php,v 1.8 2015/03/23 14:44:38 titus Exp $
+// $Id: web_example.php,v 1.9 2015/03/25 16:21:26 titus Exp $
 	
 	//
 	//
@@ -252,7 +252,6 @@
     
     function printCheckAccessPass($iconData)
     {
-        echo "<form action='web_example.php' method='post'>" . PHP_EOL;
         echo "<table>" . PHP_EOL;
         echo "<tr>" . PHP_EOL;
         echo "<td colspan='2'>" . PHP_EOL;
