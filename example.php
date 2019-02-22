@@ -1,11 +1,8 @@
 <?php
-
-// $Id: example.php,v 1.14 2014/05/28 15:10:23 titus Exp $
-
 //
 // SecSign ID Api example in php.
 //
-// (c) 2014 SecSign Technologies Inc.
+// (c) 2014-2019 SecSign Technologies Inc.
 //
 
 	include 'SecSignIDApi.php';
@@ -108,9 +105,6 @@
     if($authSessionState == AuthSession::AUTHENTICATED)
     {
         echo "user has accepted the auth session '" . $authSession->getAuthSessionID() . "'." . PHP_EOL;
-        
-        $secSignIDApi->releaseAuthSession($authSession);
-        echo "auth session '" . $authSession->getAuthSessionID() . "' was released." . PHP_EOL;
     }
     else if($authSessionState == AuthSession::DENIED)
     {

@@ -1,10 +1,9 @@
 <?php
-
-// $Id: web_example.php,v 1.9 2015/03/25 16:21:26 titus Exp $
-	
 	//
 	//
 	// a simple demo how to use the SecSignIDApi interface.
+	//
+	// (c) 2012 - 2016 SecSign Technologies Inc.
 	//
 	//
 	
@@ -63,12 +62,7 @@
                 //
                 //
                 if($authSessionState == AuthSession::AUTHENTICATED)
-                {
-                    // release authentication session. it is not used any more.
-                    // after the session was released it's id cannot be used to get the state again.
-                    // because the server does not know when the session is not used any longer to be asked for its state the session must be released manually
-                    $secSignIDApi->releaseAuthSession($authsession);
-                    
+                {                    
                     // user accepted the authentication session...
                     echo "Welcome " . $_POST['secsignid'] . PHP_EOL;
                     echo "<br /><br />";
